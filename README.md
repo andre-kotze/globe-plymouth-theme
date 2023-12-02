@@ -1,89 +1,112 @@
-# HAWT-Rotor
+# Globe
 
-Animated plymouth theme with spinning horizontal-axis wind turbine (HAWT) rotor.
+Animated plymouth theme with rotating globe.
 
-Modified from [vortex-ubuntu-plymouth-theme](https://github.com/emanuele-scarsella/hawt-rotor-plymouth-theme)
+Modified from [vortex-ubuntu-plymouth-theme](https://github.com/emanuele-scarsella/globe-plymouth-theme)
+and [hawt-rotor-plymouth-theme](https://github.com/andre-kotze/hawt-rotor-plymouth-theme)
 
-### Dependencies
+## Dependencies
 
 * plymouth, libplymouth5, plymouth-label
-* Raccomanded: plymouth-x11
+* Recommended: plymouth-x11
 * Install dependencies with `sudo apt install plymouth libplymouth5 plymouth-label`
 
 ### Boot up splash screen
+
 ![boot up splash screen](demo_boot.png)
+
 ### Shutdown splash screen
+
 ![shutdown splash screen](demo_shutdown.png)
 
-# Installation
+## Installation
 
-* go to the downloaded `hawt-rotor-plymouth-theme` folder from terminal, it can be done with the following command
+* go to the downloaded `globe-plymouth-theme` folder from terminal
+
+```bash
+cd /PATH/TO/globe-plymouth-theme
 ```
-cd /PATH/TO/hawt-rotor-plymouth-theme
-```
+
 or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
-* make the `install` file executable, it can be done with the following command
-```
+
+* make the `install` file executable
+
+```bash
 sudo chmod +x install
 ```
-* execute the `install` file, it can be done with the following command
-```
+
+* execute the `install` file
+
+```bash
 sudo ./install
 ```
 
-# Test
+## Test
 
-* go to the downloaded `hawt-rotor-plymouth-theme` folder from terminal, it can be done with the following command
+* go to the downloaded `globe-plymouth-theme` folder from terminal
+
+```bash
+cd /PATH/TO/globe-plymouth-theme
 ```
-cd /PATH/TO/hawt-rotor-plymouth-theme
-```
+
 or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
-* make the `show-splash.sh` file executable, it can be done with the following command
-```
+
+* make the `show-splash.sh` file executable
+
+```bash
 sudo chmod +x show-splash.sh
 ```
-* execute the `show-splash.sh` file, it can be done with the following command
-```
+
+* execute the `show-splash.sh` file
+
+```bash
 sudo ./show-splash.sh
 ```
 
-# Removal
+## Removal
 
-* go to the downloaded `hawt-rotor-plymouth-theme` folder from terminal, it can be done with the following command
+* go to the downloaded `globe-plymouth-theme` folder from terminal
+
+```bash
+cd /PATH/TO/globe-plymouth-theme
 ```
-cd /PATH/TO/hawt-rotor-plymouth-theme
-```
+
 or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
-* make the `uninstall` file executable, it can be done with the following command
-```
+
+* make the `uninstall` file executable
+
+```bash
 sudo chmod +x uninstall
 ```
-* execute the `uninstall` file, it can be done with the following command
-```
+
+* execute the `uninstall` file
+
+```bash
 sudo ./uninstall
 ```
+
 * then when asked chose the new plymouth theme by typing the number of your choice and pressing `Enter`
 
-# Customizing background color
+## Customizing background color
 
-* open the file in `hawt-rotor/bg.png` in any image editor of your choice
+* open the file in `globe/bg.png` in any image editor of your choice
 
 * fill the image with the color you want as background
 
-* save changes ensuring to NOT change neither the file name `bg.png` neither his location `hawt-rotor`
+* save changes ensuring to NOT change neither the file name `bg.png` neither his location `globe`
 
 * proceed to installation/reinstallation
 
-# Customizing background image
+## Customizing background image
 
-* rename, remove or move to a different folder the file in `hawt-rotor/bg.png`
+* rename, remove or move to a different folder the file in `globe/bg.png`
 
-* put your custom background image IN PNG FORMAT inside the `hawt-rotor` folder
+* put your custom background image IN PNG FORMAT inside the `globe` folder
 
 * rename your custom beckground image as `bg.png`
 
 * proceed to installation/reinstallation
 
-## License
+### License
 
 This project is licensed under the GPL v.2 License - see the LICENSE.md file for details

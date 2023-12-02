@@ -6,9 +6,9 @@
 
   INSTALLATION:
 
-  1)  go to the downloaded "hawt-rotor-plymouth-theme" folder from terminal, it can be done with the following command
+  1)  go to the downloaded "globe-plymouth-theme" folder from terminal, it can be done with the following command
   
-              cd /PATH/TO/hawt-rotor-plymouth-theme
+              cd /PATH/TO/globe-plymouth-theme
            
       or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
 
@@ -25,9 +25,9 @@
 
   TESTING:
 
-  1)  go to the downloaded "hawt-rotor-plymouth-theme" folder from terminal, it can be done with the following command
+  1)  go to the downloaded "globe-plymouth-theme" folder from terminal, it can be done with the following command
   
-              cd /PATH/TO/hawt-rotor-plymouth-theme
+              cd /PATH/TO/globe-plymouth-theme
            
       or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
 
@@ -44,11 +44,11 @@
 
   CUSTOMIZING BACKGROUND COLOR:
   
-  1)  open the file called "bg.png" and situated inside the "hawt-rotor" folder in any image editor of your choice
+  1)  open the file called "bg.png" and situated inside the "globe" folder in any image editor of your choice
 
   2)  fill the image with the color you want as background
       
-  3)  save changes ensuring to NOT change neither the file name ("bg.png") neither his parent folder ("hawt-rotor")
+  3)  save changes ensuring to NOT change neither the file name ("bg.png") neither his parent folder ("globe")
   
   4)  proceed to installation following the "INSTALLATION:" instruction at the top of this file
 
@@ -57,9 +57,9 @@
 
   CUSTOMIZING BACKGROUND IMAGE:
   
-  1)  rename, remove or move to a different folder the file called "bg.png" situated inside the "hawt-rotor" folder
+  1)  rename, remove or move to a different folder the file called "bg.png" situated inside the "globe" folder
 
-  2)  put your custom background image IN PNG FORMAT inside the "hawt-rotor" folder
+  2)  put your custom background image IN PNG FORMAT inside the "globe" folder
       
   3)  rename your custom beckground image as "bg.png"
   
@@ -70,9 +70,9 @@
 
   REMOVAL:
   
-  1)  go to the downloaded "hawt-rotor-plymouth-theme" folder from terminal, it can be done with the following command
+  1)  go to the downloaded "globe-plymouth-theme" folder from terminal, it can be done with the following command
   
-              cd /PATH/TO/hawt-rotor-plymouth-theme
+              cd /PATH/TO/globe-plymouth-theme
            
       or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
 

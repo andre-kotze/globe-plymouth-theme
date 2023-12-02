@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=Globe
+Description=Rotating globe
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/globe
+ScriptFile=/usr/share/plymouth/themes/globe/globe.script
+UseFirmwareBackground=false
