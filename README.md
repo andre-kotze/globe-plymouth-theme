@@ -21,13 +21,12 @@ and [hawt-rotor-plymouth-theme](https://github.com/andre-kotze/hawt-rotor-plymou
 
 ## Installation
 
-* go to the downloaded `globe-plymouth-theme` folder from terminal
+* clone repo and enter the folder `globe-plymouth-theme` in terminal
 
 ```bash
-cd /PATH/TO/globe-plymouth-theme
+git clone https://github.com/andre-kotze/globe-plymouth-theme.git
+cd globe-plymouth-theme/
 ```
-
-or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
 
 * make the `install` file executable
 
@@ -43,13 +42,7 @@ sudo ./install
 
 ## Test
 
-* go to the downloaded `globe-plymouth-theme` folder from terminal
-
-```bash
-cd /PATH/TO/globe-plymouth-theme
-```
-
-or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
+* navigate to `globe-plymouth-theme` folder from terminal
 
 * make the `show-splash.sh` file executable
 
@@ -65,14 +58,6 @@ sudo ./show-splash.sh
 
 ## Removal
 
-* go to the downloaded `globe-plymouth-theme` folder from terminal
-
-```bash
-cd /PATH/TO/globe-plymouth-theme
-```
-
-or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
-
 * make the `uninstall` file executable
 
 ```bash
@@ -85,28 +70,18 @@ sudo chmod +x uninstall
 sudo ./uninstall
 ```
 
-* then when asked chose the new plymouth theme by typing the number of your choice and pressing `Enter`
+* choose an existing installed plymouth theme to replace the uninstalled one
 
-## Customizing background color
+## Customisation
 
-* open the file in `globe/bg.png` in any image editor of your choice
+* change the colour of `globe/bg.png` in an image editor, to change the theme backgrouund colour
 
-* fill the image with the color you want as background
+* replace the file `globe/bg.png` with any custom background image as `bg.png`
 
-* save changes ensuring to NOT change neither the file name `bg.png` neither his location `globe`
-
-* proceed to installation/reinstallation
-
-## Customizing background image
-
-* rename, remove or move to a different folder the file in `globe/bg.png`
-
-* put your custom background image IN PNG FORMAT inside the `globe` folder
-
-* rename your custom beckground image as `bg.png`
-
-* proceed to installation/reinstallation
+* reinstall
 
 ### License
 
-This project is licensed under the GPL v.2 License - see the LICENSE.md file for details
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+For the comlete GPL v.2 license see the [LICENSE](LICENSE) file.

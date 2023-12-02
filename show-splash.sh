@@ -6,11 +6,9 @@ if [ "$EUID" -ne 0 ]; then
 	exit 1;
 fi
 
-
-
 # starting plymouth deamon to show splashscreen
-echo -n "starting plymouthd   ..........................................   ";
-plymouthd --debug --debug-file=/home/andre/plymouthd-debug-out.log;
+echo -n "starting plymouthd   ...........................................   ";
+plymouthd ;
 if [ $? -gt 0 ]; then
 	echo -e "\nan error occured while starting plymouthd" ;
 	echo "quitting plymouthd..."
@@ -22,16 +20,12 @@ if [ $? -gt 0 ]; then
 	fi
 	exit 1;
 fi
-echo "[done]" ;
-
-
+echo "[OK]" ;
 
 echo -n "showing currently selected splash screen theme   ...............   ";
-plymouth show-splash --debug --debug-file=/home/andre/plymouth-debug-out.log;
-sleep 15;
-echo "[done]" ;
-
-
+plymouth show-splash ;
+sleep 5;
+echo "[OK]" ;
 
 echo -n "quitting plymouthd   ...........................................   ";
 plymouth --quit ;
@@ -43,8 +37,6 @@ if [ $? -gt 0 ]; then
 		n=$(( n+1 )) ;
 	done
 fi
-echo "[done]" ;
-
-
+echo "[OK]" ;
 
 exit 0;
